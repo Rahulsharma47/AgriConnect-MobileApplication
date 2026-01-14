@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "appTitle": "AgriConnect",
+  "welcome": "Welcome to AgriConnect!",
+  "smartFarming": "Smart Farming",
+  "scanPlant": "Scan Plant",
+  "history": "History",
+  "settings": "Settings"
+}

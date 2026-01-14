@@ -1,0 +1,54 @@
+name: agrconnect
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  google_fonts: ^6.3.1
+  provider: ^6.1.5+1
+  flutter_svg: ^2.2.1
+  speech_to_text: ^7.3.0
+  file_picker: ^10.3.3
+  image_picker: ^1.2.0
+  camera: ^0.11.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  flutter_launcher_icons: ^0.14.4
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  shared_preferences: ^2.5.3
+  http: ^1.6.0
+  pdf: ^3.11.3
+  open_file: ^3.5.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/SVG/tomato.svg
+    - assets/SVG/cashew.svg
+    - assets/SVG/grape.svg
+    - assets/SVG/corn.svg
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"   # should be a solid color (or a separate background image)
+  adaptive_icon_foreground: "assets/icons/logo.png"
